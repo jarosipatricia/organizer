@@ -1,0 +1,22 @@
+#nav a {
+    display:inline-block;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgb(4, 54, 78);
+    border-right: 1px solid #ccc; 
+}
+
+#nav a:hover, #nav button:hover {
+    text-decoration: underline;
+}
+
+.logoutButton {
+    width: 70px;
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(4, 54, 78);
+    cursor:pointer;
+}

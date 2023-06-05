@@ -1,0 +1,78 @@
+.budgetpic {
+    width: 500px;
+    height: 180px;
+  }
+
+  .totalmoney {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: rgb(4, 54, 78);
+    font-weight: bold;
+  }
+
+  .desc {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(4, 54, 78);
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inputitem {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #removeicon {
+    width: 35px;
+    height: 35px;
+    cursor:pointer;
+  }
+
+  .expense-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(223, 211, 234);
+    padding: 10px;
+    color: rgb(4, 54, 78);
+  }
+
+  .expenseitem {
+    margin-right: 10px;
+  }
+
+  #background-red {
+    background-color: red;
+  }
+
+  #background-green {
+    background-color: green;
+  }
+
+  .insidelabel {
+    color: rgb(55, 24, 95);
+    font-size: 18px;
+    display: flex;
+  }
+
+  #expenseSubmit {
+    all: unset;
+    background-color: rgb(97, 67, 142) ;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 53px;
+    margin-top: 25px;
+    cursor:pointer;
+}

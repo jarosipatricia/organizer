@@ -1,0 +1,53 @@
+.news-app {
+    display:flex;
+    justify-content: center;
+}
+
+.news-item {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(222, 211, 241);
+    backdrop-filter: blur(5px);
+}
+
+.news-img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(4, 54, 78);
+  }
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor:pointer;
+}
+
+.art {
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: rgba(72, 11, 126, 0.2) 0px 2px 8px 0px;
+}
+
+.art:hover{
+    color:white;
+    background-color: rgb(109, 64, 105);
+}
+
+.welcomePic {
+    width: 30%;
+    height: 30%;
+}
+
+.welcomeTxt {
+    font-size: 22px;
+    margin-bottom: 8px;
+}

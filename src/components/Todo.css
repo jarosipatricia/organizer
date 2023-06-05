@@ -1,0 +1,58 @@
+.todoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.addImg {
+  width: 60px;
+  height: 60px;
+  cursor:pointer;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todopic {
+  width: 350px;
+  height: 150px;
+}
+
+.deleteicon, .starIcon {
+  width: 35px;
+  height: 35px;
+  cursor:pointer;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.doneMessage {
+  color: rgb(66, 13, 123);
+  margin-top: 5px;
+}
+
+#todoSubmit {
+  all: unset;
+  background-color: rgb(133, 187, 128);
+  color: rgb(20, 51, 23);
+  font-size: 25px;
+  width: 60px;
+  height: 53px;
+  margin-top: 25px;
+  cursor:pointer;
+  border-radius: 80%;
+}
+
+.todolabel {
+  color: rgb(55, 24, 95);
+  font-size: 20px;
+  display: flex;
+}

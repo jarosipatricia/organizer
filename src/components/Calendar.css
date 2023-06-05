@@ -1,0 +1,47 @@
+.maintitle {
+    color: rgb(4, 54, 78);
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+input {
+    margin-right: 5px;
+}
+
+.dateInput {
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 25px;
+}
+
+.addButton {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(62, 4, 13);
+  }
+
+  #submit {
+    all: unset;
+    background-color: rgb(97, 67, 142) ;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+
+.insidelabel {
+  color: rgb(55, 24, 95);
+  font-size: 18px;
+  float: left;
+}

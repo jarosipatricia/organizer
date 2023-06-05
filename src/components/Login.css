@@ -1,0 +1,111 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#e66465, #9198e5);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: auto;
+  margin-top: 25px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 33%;
+  box-shadow: 6px 6px 7px 7px hsl(278, 37%, 34%);
+  background-color: hsl(276, 26%, 96%);
+}
+
+.img-container {
+  padding-top: 55px;
+  justify-content: center;
+  display: flex;
+}
+
+.image-border { /*border for the pic*/
+  /*background-color: #e6daed; */
+  background: radial-gradient(#e1d5e0, #c3c5de);
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 135px;
+  width: 135px;
+}
+
+.img {
+  height: 130px;
+  width: 130px;
+}
+
+input {
+  height: 50px;
+  box-shadow: inset 0px 0px 25px 0px #d8d6d6;
+  border: none;
+  padding-left: 60px;
+  font-size: 18px;
+}
+
+.icons {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+.input-spacing{
+  padding-bottom: 20px;
+}
+
+button{
+  width: 100px;
+  height: 40px;
+  background-color: rgb(182, 125, 236);
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  cursor:pointer;
+}
+
+.login-button-container{
+  padding-top: 25px;
+}
+
+.register-button{
+    color: #7431b3;
+    cursor:pointer;
+}
+
+.errormessage {
+  color: red;
+  margin-bottom: 8px;
+}
+
+.navigateTo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.label {
+  color: rgb(55, 24, 95);
+  display: flex;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  padding:5px 15px; 
+  background:rgb(168, 107, 224); 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  width: 100px;
+  height: 40px;
+}

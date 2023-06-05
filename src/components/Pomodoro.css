@@ -1,0 +1,71 @@
+.mainTitle {
+  color: rgb(4, 54, 78);
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.subTitle {
+  color: rgb(4, 54, 78);
+  font-size: 17px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.explanationContainer {
+  margin-right: 100px;
+}
+
+.explanationTitle {
+  color: rgb(4, 54, 78);
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.explanationList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.explanationListItem {
+  margin-bottom: 10px;
+}
+
+.timer {
+  font-size: 100px;
+}
+
+.buttonicons {
+  width: 40px;
+  height: 40px;
+  cursor:pointer;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 25px;
+}
+
+.customTimerCont {
+  margin-top: 35px;
+}
+
+.setTimerTitle {
+  margin-bottom: 16px;
+  color: rgb(4, 54, 78);
+  font-weight: bold;
+}
+
+.setMinutes {
+  padding-left: 18px;
+  height: 40px;
+  width: 40px;
+}
